@@ -1,11 +1,9 @@
-import os
 import random
 
 print("Bienvenido al Juego")
-print("Opciones:")
 options = ('piedra','papel','tijera') 
 
-user = os.getenv("user_option", "piedra").lower()
+user = "piedra".lower()
 computer = random.choice(options)
 print("")
   
