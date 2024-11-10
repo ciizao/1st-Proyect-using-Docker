@@ -1,16 +1,13 @@
+import os
 import random
 
 print("Bienvenido al Juego")
-print("Escriba una de estas opciones:")
+print("Opciones:")
 options = ('piedra','papel','tijera') 
 
-user = input('piedra, papel, tijera\n')
-user = user.lower()
+user = os.getenv("user_option", "piedra").lower()
 computer = random.choice(options)
 print("")
-
-if not user in options:
-  print("¡Opción Incorrecta!")
   
 print('Player =>',user)
 print('Sistem => ',computer)
