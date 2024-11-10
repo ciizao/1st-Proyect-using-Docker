@@ -5,7 +5,7 @@ FROM python:3.8-slim
 WORKDIR /app
 
 # Python file from the current directory to the container
-COPY juego.py /app
+COPY game.py /app
 
 # Run the Python file when the container starts
-CMD ["python", "juego.py"]
+CMD ["python", "game.py"]
