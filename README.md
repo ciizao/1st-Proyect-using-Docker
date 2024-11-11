@@ -1,7 +1,7 @@
 # Game with Python
 ## Results
 <p align="center">
-    <img src="./public/img/Resultado.png" alt="Resultado Python">
+    <img src="public/img/Resultado.png" alt="Resultado Python">
 </p>
 
 
@@ -36,13 +36,13 @@ docker run --name <NEWCONTAINERNAME> <IMAGENAME>
 ## :light_rail: PAAS Deploy with docker (Railway)
 For its deployment in a PAAS we will rely on railway and its easy implementation thanks to its container management. 
 
-![Railway Service](./public/img/Railway1.png "Service")
+![Railway Service](public/img/Railway1.png "Service")
 
 The platform automatically uses our Dockerfile to build the container. 
 
-![Build Container](./public/img/Railway3.png "Build Configuration")
+![Build Container](public/img/Railway3.png "Build Configuration")
 
 > [!IMPORTANT]
 > Being a console program, the results are presented in the logs.
 
-![Result](./public/img/Resultado.png "result")
+![Result](public/img/Resultado.png "result")
