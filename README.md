@@ -38,9 +38,6 @@ For its deployment in a PAAS we will rely on railway and its easy implementation
 
 ![Railway Service](Public/Img/Railway1.png "Service")
 
-The platform automatically uses our Dockerfile to build the container. 
-
-![Build Container](Public/Img/Railway3.png "Build Configuration")
 
 > [!IMPORTANT]
 > Being a console program, the results are presented in the logs.
