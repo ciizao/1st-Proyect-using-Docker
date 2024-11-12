@@ -19,9 +19,9 @@ It is a program that presents the game rock paper scissors in Python
 * Docker - DockerDesktop installed
 * DockerHub account
 ### Download image
-*Image in the Docker Hub repository and how to use it
+*Image in the DockerHub repository and how to use it
 ```
-https://hub.docker.com/repository/docker/ciizao/1st-proyect-using-docker-python/general
+https://hub.docker.com/repository/docker/ciizao/1st-proyect-using-docker-python
 ```
 ```
 docker pull ciizao/1st-proyect-using-docker-python
